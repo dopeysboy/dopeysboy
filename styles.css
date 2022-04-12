@@ -1,0 +1,54 @@
+body {
+    background-color: powderblue;
+    overflow-x: hidden;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 3px;
+}
+
+.center-full {
+    margin: -10px;
+    width: 100%;
+    padding: 10px;
+    border: 10px;
+    background-color: rgb(26, 26, 107);
+    text-align: center;
+}
+
+h1#name {
+    color: goldenrod;
+    width: 50%;
+}
+
+p {
+    padding: 0px;
+}
+
+.content {
+    background-color: lightcyan;
+}
+
+.content#contact {
+    text-align: center;
+}
+
+.sidebar {
+    height: 120vh;
+    width: 10%;
+    overflow: hidden;
+    align-items: end;
+    background-image: linear-gradient(rgb(26, 26, 107), rgb(6, 237, 237));
+    margin: -20px;
+}
+
+.sidebar#sidebarleft {
+    float: left;
+}
+
+.sidebar#sidebarright {
+    float: right;
+}
